@@ -1,0 +1,35 @@
+<html>
+<head>
+    <style>
+        .email-body {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .email-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .email-footer {
+            background-color: #6c757d;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-body">
+        <div class="email-header">
+            <h1>Добро пожаловать в нашу библиотеку!</h1>
+        </div>
+        <p>Мы очень рады, что вы с нами!</p>
+        <p>Информация о вашей учетной записи: {{ email }}</p>
+        <div class="email-footer">
+            <p>С уважением, команда нашей библиотеки</p>
+        </div>
+    </div>
+</body>
+</html>
